@@ -35,3 +35,11 @@ list of obsolete packages and commands).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.8.4-1
++ Revision: 770197
+- texlive-l2tabu-italian
+- texlive-l2tabu-italian
+
