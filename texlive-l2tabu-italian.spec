@@ -5,8 +5,8 @@
 # catalog-license gpl
 # catalog-version 1.8.4
 Name:		texlive-l2tabu-italian
-Version:	1.8.4
-Release:	9
+Version:	2.3
+Release:	1
 Summary:	Italian Translation of Obsolete packages and commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/l2tabu/italian
