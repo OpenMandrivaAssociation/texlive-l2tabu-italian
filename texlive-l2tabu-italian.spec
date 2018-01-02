@@ -1,9 +1,3 @@
-# revision 25218
-# category Package
-# catalog-ctan /info/l2tabu/italian
-# catalog-date 2011-09-21 00:42:21 +0200
-# catalog-license gpl
-# catalog-version 1.8.4
 Name:		texlive-l2tabu-italian
 Version:	2.3
 Release:	1
@@ -23,8 +17,7 @@ list of obsolete packages and commands).
 
 #-----------------------------------------------------------------------
 %files
-%doc %{_texmfdistdir}/doc/latex/l2tabu-italian/l2tabuit.pdf
-%doc %{_texmfdistdir}/doc/latex/l2tabu-italian/l2tabuit.tex
+%doc %{_texmfdistdir}/doc/latex/l2tabu-italian
 
 #-----------------------------------------------------------------------
 %prep
@@ -35,11 +28,3 @@ list of obsolete packages and commands).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.8.4-1
-+ Revision: 770197
-- texlive-l2tabu-italian
-- texlive-l2tabu-italian
-
