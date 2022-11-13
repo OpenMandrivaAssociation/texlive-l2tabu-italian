@@ -1,12 +1,12 @@
 Name:		texlive-l2tabu-italian
-Version:	2.3
-Release:	2
+Version:	25218
+Release:	1
 Summary:	Italian Translation of Obsolete packages and commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/l2tabu/italian
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-italian.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-italian.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-italian.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-italian.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,7 +21,7 @@ list of obsolete packages and commands).
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
