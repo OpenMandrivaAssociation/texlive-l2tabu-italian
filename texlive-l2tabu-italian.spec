@@ -1,6 +1,6 @@
 Name:		texlive-l2tabu-italian
 Version:	25218
-Release:	1
+Release:	2
 Summary:	Italian Translation of Obsolete packages and commands
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/l2tabu/italian
