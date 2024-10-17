@@ -3,7 +3,7 @@ Version:	25218
 Release:	2
 Summary:	Italian Translation of Obsolete packages and commands
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/l2tabu/italian
+URL:		https://www.ctan.org/tex-archive/info/l2tabu/italian
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-italian.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/l2tabu-italian.doc.r%{version}.tar.xz
